@@ -9,6 +9,8 @@ let argPattern = re("%([a-z]|[A-Z])")
 
 createDir("./execs")
 
+"./execs/Regenerate Execs".open(fmWrite).write("$RICE/desktop_parser")
+
 for dir in dirs:
   if not dir.dirExists:
     continue
