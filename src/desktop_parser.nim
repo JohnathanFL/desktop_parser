@@ -9,7 +9,7 @@ let argPattern = re("%([a-z]|[A-Z])")
 
 createDir("./execs")
 
-"./execs/Regenerate Execs".open(fmWrite).write("zsh -e '$RICE/parse_desktops'")
+"./execs/Regenerate Execs".open(fmWrite).write("~/.configs/parse_desktops")
 
 for dir in dirs:
   if not dir.dirExists:
@@ -32,7 +32,7 @@ for dir in dirs:
     echo "Found app '", name, "' with exec '", exec, "'"
     let execFileName = "./execs/" & name
     var execFile = open(execFileName, fmWrite)
-    execFile.write("#!/bin/sh\n" & exec)
+    execFile.write(exec)
     execFile.close()
     echo "Setting permission for ", filePath.path
     execFileName.inclFilePermissions({fpUserExec})
