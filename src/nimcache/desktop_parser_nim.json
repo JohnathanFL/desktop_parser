@@ -1,0 +1,20 @@
+{"compile":[
+["/home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/desktop_parser_nim_desktop_parser_nim.c", "gcc -c  -w  -I'/home/oakenbow/.choosenim/toolchains/nim-#devel/lib' -o /home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/desktop_parser_nim_desktop_parser_nim.o /home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/desktop_parser_nim_desktop_parser_nim.c"]
+],
+"link":[
+"/home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/desktop_parser_nim_desktop_parser_nim.o",
+"/home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_system.o",
+"/home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_os.o",
+"/home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_strutils.o",
+"/home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_parseutils.o",
+"/home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_math.o",
+"/home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_algorithm.o",
+"/home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_times.o",
+"/home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_posix.o",
+"/home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_ospaths.o",
+"/home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_re.o",
+"/home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_pcre.o",
+"/home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_rtarrays.o"
+],
+"linkcmd": "gcc   -o /home/oakenbow/Dev/Projects/desktop-parser-nim/desktop_parser_nim  /home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/desktop_parser_nim_desktop_parser_nim.o /home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_system.o /home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_os.o /home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_strutils.o /home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_parseutils.o /home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_math.o /home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_algorithm.o /home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_times.o /home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_posix.o /home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_ospaths.o /home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_re.o /home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_pcre.o /home/oakenbow/Dev/Projects/desktop-parser-nim/src/nimcache/stdlib_rtarrays.o  -lm -lrt   -ldl"
+}
